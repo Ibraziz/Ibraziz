@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
   <title id="title">Abdelaziz Ibrahim | AI engineer and NLP researcher</title>
-  <desc id="desc">AI engineer and NLP researcher based in Jyväskylä, Finland.</desc>
+  <desc id="desc">AI engineer and NLP researcher.</desc>
   <defs><style>.pulse{transform-origin:962px 181px;animation:breathe 5s ease-in-out infinite}@keyframes breathe{0%,100%{transform:scale(.9);opacity:.18}50%{transform:scale(1.35);opacity:.48}}@media(prefers-reduced-motion:reduce){.pulse{animation:none}}</style></defs>
 <rect x="1" y="1" width="1198" height="298" rx="24" fill="#101010" stroke="#655315"/>
 <rect x="1166" y="32" width="8" height="236" rx="4" fill="#ef3b36"/>
@@ -8,8 +8,6 @@
 <text x="115" y="57" fill="#e6c952" font-family="'Cascadia Code', Consolas, monospace" font-size="18" font-weight="500" letter-spacing="3">@IBRAZIZ</text>
 <text x="52" y="133" fill="#ffdc35" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="61" font-weight="700" letter-spacing="-2.2">Abdelaziz Ibrahim</text>
 <text x="55" y="182" fill="#ef3b36" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="29" font-weight="600" >AI engineer · NLP researcher</text>
-<circle cx="62" cy="259" r="4" fill="#ef3b36"/>
-<text x="78" y="265" fill="#e6c952" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="18" font-weight="400" >Jyväskylä, Finland</text>
 <path d="M55 225H691" stroke="#655315"/>
 <g transform="translate(0,-25)">
 <circle cx="970" cy="182" r="128" fill="none" stroke="#655315" stroke-dasharray="3 10"/>

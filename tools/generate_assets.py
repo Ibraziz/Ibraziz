@@ -51,8 +51,6 @@ def hero(p):
         text(115, 57, "@IBRAZIZ", 18, p["muted"], 500, MONO, 'letter-spacing="3"'),
         text(52, 133, "Abdelaziz Ibrahim", 61, p["ink"], 700, extra='letter-spacing="-2.2"'),
         text(55, 182, "AI engineer · NLP researcher", 29, p["red"], 600),
-        f'<circle cx="62" cy="259" r="4" fill="{p["red"]}"/>',
-        text(78, 265, "Jyväskylä, Finland", 18, p["muted"]),
         f'<path d="M55 225H691" stroke="{p["line"]}"/>',
         '<g transform="translate(0,-25)">',
         f'<circle cx="970" cy="182" r="128" fill="none" stroke="{p["line"]}" stroke-dasharray="3 10"/>',
@@ -77,7 +75,7 @@ def hero(p):
         '@media(prefers-reduced-motion:reduce){.pulse{animation:none}}</style>'
     )
     return svg(1200, 300, "Abdelaziz Ibrahim | AI engineer and NLP researcher",
-               "AI engineer and NLP researcher based in Jyväskylä, Finland.",
+               "AI engineer and NLP researcher.",
                "\n".join(body), defs)
 
 
@@ -89,11 +87,9 @@ def hero_mobile(p):
         text(82, 46, "@IBRAZIZ", 19, p["muted"], 500, MONO, 'letter-spacing="2"'),
         text(30, 114, "Abdelaziz Ibrahim", 49, p["ink"], 700, extra='letter-spacing="-1.8"'),
         text(32, 160, "AI engineer · NLP researcher", 26, p["red"], 600),
-        f'<circle cx="38" cy="212" r="4" fill="{p["red"]}"/>',
-        text(53, 218, "Jyväskylä, Finland", 20, p["muted"]),
     ]
     return svg(600, 250, "Abdelaziz Ibrahim | AI engineer and NLP researcher",
-               "AI engineer and NLP researcher based in Jyväskylä, Finland.",
+               "AI engineer and NLP researcher.",
                "\n".join(body))
 
 
