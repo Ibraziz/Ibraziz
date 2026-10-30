@@ -9,14 +9,12 @@ ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
 PALETTES = {
     "dark": {
-        "bg": "#0b1423", "panel": "#111f32", "line": "#293e55",
-        "ink": "#edf5ff", "muted": "#a4b7cb", "accent": "#5eead4",
-        "blue": "#91baff", "violet": "#bc9cff", "tint": "#123b3b", "soft": "#1c304a",
+        "bg": "#101010", "line": "#655315", "ink": "#ffdc35",
+        "muted": "#e6c952", "accent": "#ffdc35", "red": "#ef3b36",
     },
     "light": {
-        "bg": "#f0f7f9", "panel": "#ffffff", "line": "#cbdde5",
-        "ink": "#142b43", "muted": "#4c657b", "accent": "#087f73",
-        "blue": "#386cc2", "violet": "#8154c8", "tint": "#d9f2ed", "soft": "#e3edf6",
+        "bg": "#ffdc35", "line": "#b38b00", "ink": "#101010",
+        "muted": "#101010", "accent": "#101010", "red": "#c51f2a",
     },
 }
 FONT = "'Segoe UI', Inter, Arial, sans-serif"
@@ -47,16 +45,16 @@ def hero(p):
     nodes = [(862, 113), (970, 73), (1071, 116), (820, 204), (962, 181),
              (1120, 211), (866, 279), (992, 291), (1082, 279)]
     body = [
-        f'<rect x="1" y="1" width="1198" height="348" rx="24" fill="{p["bg"]}" stroke="{p["line"]}"/>',
-        f'<path d="M790 1h385a24 24 0 0 1 24 24v300a24 24 0 0 1-24 24H790Z" fill="url(#wash)"/>',
-        f'<path d="M54 51H98" stroke="url(#aurora)" stroke-width="4" stroke-linecap="round"/>',
+        f'<rect x="1" y="1" width="1198" height="298" rx="24" fill="{p["bg"]}" stroke="{p["line"]}"/>',
+        f'<rect x="1166" y="32" width="8" height="236" rx="4" fill="{p["red"]}"/>',
+        f'<path d="M54 51H98" stroke="{p["accent"]}" stroke-width="4" stroke-linecap="round"/>',
         text(115, 57, "@IBRAZIZ", 18, p["muted"], 500, MONO, 'letter-spacing="3"'),
-        text(52, 141, "Abdelaziz Ibrahim", 61, p["ink"], 700, extra='letter-spacing="-2.2"'),
-        text(55, 191, "AI engineer · NLP researcher", 29, p["accent"], 600),
-        text(55, 239, "Language models. Useful tools. Reliable data.", 23, p["muted"]),
-        f'<circle cx="62" cy="302" r="4" fill="{p["accent"]}"/>',
-        text(78, 308, "Jyväskylä, Finland", 18, p["muted"]),
-        f'<path d="M55 269H691" stroke="{p["line"]}"/>',
+        text(52, 133, "Abdelaziz Ibrahim", 61, p["ink"], 700, extra='letter-spacing="-2.2"'),
+        text(55, 182, "AI engineer · NLP researcher", 29, p["red"], 600),
+        f'<circle cx="62" cy="259" r="4" fill="{p["red"]}"/>',
+        text(78, 265, "Jyväskylä, Finland", 18, p["muted"]),
+        f'<path d="M55 225H691" stroke="{p["line"]}"/>',
+        '<g transform="translate(0,-25)">',
         f'<circle cx="970" cy="182" r="128" fill="none" stroke="{p["line"]}" stroke-dasharray="3 10"/>',
     ]
     for a, b in links:
@@ -65,43 +63,37 @@ def hero(p):
         body.append(f'<path d="M{x1} {y1}L{x2} {y2}" fill="none" stroke="{p["line"]}" stroke-width="1.5"/>')
     body.append(f'<path d="M862 113L970 73L1071 116L962 181L866 279L992 291" fill="none" stroke="{p["accent"]}" stroke-opacity=".5" stroke-width="2"/>')
     for i, (x, y) in enumerate(nodes):
-        color = p["accent"] if i in (0, 4, 7) else p["violet"] if i in (1, 5, 6) else p["blue"]
+        color = p["accent"] if i in (0, 2, 4, 7) else p["red"]
         radius = 11 if i == 4 else 6
         body.extend([
             f'<circle cx="{x}" cy="{y}" r="{radius + 9}" fill="{color}" opacity=".08"/>',
             f'<circle cx="{x}" cy="{y}" r="{radius}" fill="{p["bg"]}" stroke="{color}" stroke-width="2"/>',
         ])
     body.append(f'<circle class="pulse" cx="962" cy="181" r="22" fill="none" stroke="{p["accent"]}" stroke-width="1.5" opacity=".32"/>')
+    body.append('</g>')
     defs = (
-        f'<linearGradient id="wash"><stop stop-color="{p["bg"]}"/>'
-        f'<stop offset=".55" stop-color="{p["blue"]}" stop-opacity=".12"/>'
-        f'<stop offset="1" stop-color="{p["violet"]}" stop-opacity=".25"/></linearGradient>'
-        f'<linearGradient id="aurora" gradientUnits="userSpaceOnUse" x1="54" y1="51" x2="98" y2="51"><stop stop-color="{p["accent"]}"/>'
-        f'<stop offset=".5" stop-color="{p["blue"]}"/>'
-        f'<stop offset="1" stop-color="{p["violet"]}"/></linearGradient>'
         '<style>.pulse{transform-origin:962px 181px;animation:breathe 5s ease-in-out infinite}'
         '@keyframes breathe{0%,100%{transform:scale(.9);opacity:.18}50%{transform:scale(1.35);opacity:.48}}'
         '@media(prefers-reduced-motion:reduce){.pulse{animation:none}}</style>'
     )
-    return svg(1200, 350, "Abdelaziz Ibrahim | AI engineer and NLP researcher",
-               "Language models, useful tools, and reliable data. Based in Jyväskylä, Finland.",
+    return svg(1200, 300, "Abdelaziz Ibrahim | AI engineer and NLP researcher",
+               "AI engineer and NLP researcher based in Jyväskylä, Finland.",
                "\n".join(body), defs)
 
 
 def hero_mobile(p):
     body = [
-        f'<rect x="1" y="1" width="598" height="308" rx="22" fill="{p["bg"]}" stroke="{p["line"]}"/>',
+        f'<rect x="1" y="1" width="598" height="248" rx="22" fill="{p["bg"]}" stroke="{p["line"]}"/>',
+        f'<rect x="566" y="32" width="6" height="186" rx="3" fill="{p["red"]}"/>',
         f'<path d="M32 40H67" stroke="{p["accent"]}" stroke-width="4" stroke-linecap="round"/>',
         text(82, 46, "@IBRAZIZ", 19, p["muted"], 500, MONO, 'letter-spacing="2"'),
         text(30, 114, "Abdelaziz Ibrahim", 49, p["ink"], 700, extra='letter-spacing="-1.8"'),
-        text(32, 160, "AI engineer · NLP researcher", 26, p["accent"], 600),
-        text(32, 204, "Language models. Useful tools.", 23, p["muted"]),
-        text(32, 235, "Reliable data.", 23, p["muted"]),
-        f'<circle cx="38" cy="276" r="4" fill="{p["accent"]}"/>',
-        text(53, 282, "Jyväskylä, Finland", 20, p["muted"]),
+        text(32, 160, "AI engineer · NLP researcher", 26, p["red"], 600),
+        f'<circle cx="38" cy="212" r="4" fill="{p["red"]}"/>',
+        text(53, 218, "Jyväskylä, Finland", 20, p["muted"]),
     ]
-    return svg(600, 310, "Abdelaziz Ibrahim | AI engineer and NLP researcher",
-               "Language models, useful tools, and reliable data. Based in Jyväskylä, Finland.",
+    return svg(600, 250, "Abdelaziz Ibrahim | AI engineer and NLP researcher",
+               "AI engineer and NLP researcher based in Jyväskylä, Finland.",
                "\n".join(body))
 
 
@@ -110,6 +102,8 @@ def hero_mobile(p):
 BADGE_ROWS = [
     ('Programming', [
         ('python', 'Python', '#3776ab', '#ffffff'),
+        ('java', 'Java', '#b23b28', '#ffffff'),
+        ('julia', 'Julia', '#7650a4', '#ffffff'),
         ('sql', 'SQL', '#ba5a12', '#ffffff'),
         ('dotnet', '.NET', '#7436c4', '#ffffff'),
     ]),
@@ -157,10 +151,9 @@ BADGE_ROWS = [
         ('ontologies', 'Ontologies', '#94389d', '#ffffff'),
     ]),
     ('Cloud & dev tools', [
-        ('aws-fundamentals', 'AWS Fundamentals', '#8e5512', '#ffffff'),
+        ('aws', 'AWS', '#8e5512', '#ffffff'),
         ('git', 'Git', '#c24c32', '#ffffff'),
         ('github', 'GitHub', '#3e4a5d', '#ffffff'),
-        ('jupyter', 'Jupyter', '#af5818', '#ffffff'),
     ]),
 ]
 

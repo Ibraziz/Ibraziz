@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="51" height="26" viewBox="0 0 51 26" role="img" aria-labelledby="title desc">
+  <title id="title">AWS</title>
+  <desc id="desc">Tool or framework: AWS.</desc>
+  <defs><linearGradient id="paint" x2="0" y2="1"><stop stop-color="#9f6e36"/><stop offset=".5" stop-color="#8e5512"/><stop offset="1" stop-color="#7d4b10"/></linearGradient></defs>
+<rect x=".5" y=".5" width="50" height="25" rx="4" fill="url(#paint)" stroke="#74460f"/>
+<path d="M5 1h41q4 0 4 4v7H1V5q0-4 4-4Z" fill="#ffffff" opacity=".07"/>
+<text x="25.5" y="18" fill="#000000" font-family="Verdana,Arial,sans-serif" font-size="13" font-weight="500" text-anchor="middle" opacity=".3">AWS</text>
+<text x="25.5" y="17" fill="#ffffff" font-family="Verdana,Arial,sans-serif" font-size="13" font-weight="500" text-anchor="middle">AWS</text>
+</svg>

@@ -41,4 +41,4 @@ Keep `README.md` at the repository root and preserve the paths under `assets/`. 
 
 ## Design and content
 
-The tool table uses colorful gradient badges inspired by your supplied screenshot. Its contents come from your CV and project work. AWS is explicitly labeled **Fundamentals**. The detailed project descriptions and research metrics have been removed from the profile.
+The banner uses flat yellow, black, and red colors. The tool table uses colorful gradient badges inspired by your supplied screenshot. Its contents follow your CV, project work, and requested updates. The profile focuses on tools and frameworks.
