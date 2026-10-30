@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="109" height="26" viewBox="0 0 109 26" role="img" aria-labelledby="title desc">
+  <title id="title">Transformers</title>
+  <desc id="desc">Tool or framework: Transformers.</desc>
+  <defs><linearGradient id="paint" x2="0" y2="1"><stop stop-color="#e4c33c"/><stop offset=".5" stop-color="#dfb81a"/><stop offset="1" stop-color="#c4a217"/></linearGradient></defs>
+<rect x=".5" y=".5" width="108" height="25" rx="4" fill="url(#paint)" stroke="#b79715"/>
+<path d="M5 1h99q4 0 4 4v7H1V5q0-4 4-4Z" fill="#ffffff" opacity=".07"/>
+<text x="54.5" y="17" fill="#202531" font-family="Verdana,Arial,sans-serif" font-size="13" font-weight="500" text-anchor="middle">Transformers</text>
+</svg>

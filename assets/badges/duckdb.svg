@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="69" height="26" viewBox="0 0 69 26" role="img" aria-labelledby="title desc">
+  <title id="title">DuckDB</title>
+  <desc id="desc">Tool or framework: DuckDB.</desc>
+  <defs><linearGradient id="paint" x2="0" y2="1"><stop stop-color="#e6ce47"/><stop offset=".5" stop-color="#e2c526"/><stop offset="1" stop-color="#c7ad21"/></linearGradient></defs>
+<rect x=".5" y=".5" width="68" height="25" rx="4" fill="url(#paint)" stroke="#b9a21f"/>
+<path d="M5 1h59q4 0 4 4v7H1V5q0-4 4-4Z" fill="#ffffff" opacity=".07"/>
+<text x="34.5" y="17" fill="#202531" font-family="Verdana,Arial,sans-serif" font-size="13" font-weight="500" text-anchor="middle">DuckDB</text>
+</svg>

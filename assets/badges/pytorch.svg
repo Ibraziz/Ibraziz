@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="75" height="26" viewBox="0 0 75 26" role="img" aria-labelledby="title desc">
+  <title id="title">PyTorch</title>
+  <desc id="desc">Tool or framework: PyTorch.</desc>
+  <defs><linearGradient id="paint" x2="0" y2="1"><stop stop-color="#d65e48"/><stop offset=".5" stop-color="#cf4128"/><stop offset="1" stop-color="#b63923"/></linearGradient></defs>
+<rect x=".5" y=".5" width="74" height="25" rx="4" fill="url(#paint)" stroke="#aa3521"/>
+<path d="M5 1h65q4 0 4 4v7H1V5q0-4 4-4Z" fill="#ffffff" opacity=".07"/>
+<text x="37.5" y="18" fill="#000000" font-family="Verdana,Arial,sans-serif" font-size="13" font-weight="500" text-anchor="middle" opacity=".3">PyTorch</text>
+<text x="37.5" y="17" fill="#ffffff" font-family="Verdana,Arial,sans-serif" font-size="13" font-weight="500" text-anchor="middle">PyTorch</text>
+</svg>

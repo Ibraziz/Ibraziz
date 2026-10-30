@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="58" height="26" viewBox="0 0 58 26" role="img" aria-labelledby="title desc">
+  <title id="title">vLLM</title>
+  <desc id="desc">Tool or framework: vLLM.</desc>
+  <defs><linearGradient id="paint" x2="0" y2="1"><stop stop-color="#885fc7"/><stop offset=".5" stop-color="#7343bd"/><stop offset="1" stop-color="#653ba6"/></linearGradient></defs>
+<rect x=".5" y=".5" width="57" height="25" rx="4" fill="url(#paint)" stroke="#5e379b"/>
+<path d="M5 1h48q4 0 4 4v7H1V5q0-4 4-4Z" fill="#ffffff" opacity=".07"/>
+<text x="29.0" y="18" fill="#000000" font-family="Verdana,Arial,sans-serif" font-size="13" font-weight="500" text-anchor="middle" opacity=".3">vLLM</text>
+<text x="29.0" y="17" fill="#ffffff" font-family="Verdana,Arial,sans-serif" font-size="13" font-weight="500" text-anchor="middle">vLLM</text>
+</svg>

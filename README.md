@@ -9,73 +9,27 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/abdelaziz-ibrahim-740800172/">LinkedIn</a>
   &nbsp;·&nbsp;
-  <a href="https://arxiv.org/abs/2606.00285">Research paper</a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/Ibraziz?tab=repositories">Repositories</a>
+  <a href="https://github.com/Ibraziz?tab=repositories">GitHub repositories</a>
 </p>
 
 ## Hi, I'm Abdelaziz 👋
 
-I'm an AI engineer based in Jyväskylä, Finland, with a master's degree in Artificial Intelligence from the University of Jyväskylä. I build LLM applications, agent workflows, and data pipelines, with a particular interest in multilingual NLP and model evaluation.
+I'm an AI engineer based in Jyväskylä, Finland, with a master's degree in Artificial Intelligence from the University of Jyväskylä. I work with LLMs, agent workflows, multilingual NLP, and data pipelines.
 
-I like learning through implementation: working through the details, understanding why something fails, and making it work reliably.
+## Tools & frameworks
 
-## Selected work
+<!-- tools:start -->
 
-### 01 / [FineOPUS](https://github.com/MaLA-LM/FineOPUS/tree/main/05_quality_estimation) · Multilingual data quality
-
-I built the quality-estimation stage of FineOPUS as part of my master's thesis with the MaLA team. My work covered evaluator benchmarking, model selection, and scalable scoring and filtering on the Mahti and LUMI supercomputers.
-
-<picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/research-mobile-dark.svg">
-  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/research-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/research-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/research-light.svg">
-  <img alt="FineOPUS: 9 evaluators benchmarked across 41,412 translation directions; 1.14 billion pairs scored in a 421-direction subset." src="./assets/research-light.svg" width="1200">
-</picture>
-
-The pipeline includes validated model outputs, selective retries, resumable checkpoints, and streaming Parquet processing. I also co-authored [Model-Based Quality Assessment for Massively Multilingual Parallel Data](https://arxiv.org/abs/2606.00285).
-
-**Built with:** Python · PyTorch · vLLM · Slurm · DuckDB · Parquet · Apptainer
-
-[Pipeline code ↗](https://github.com/MaLA-LM/FineOPUS/tree/main/05_quality_estimation) &nbsp; [Filtered dataset ↗](https://huggingface.co/datasets/MaLA-LM/FineOPUS-Filtered-Stage5)
-
-### 02 / [SQL Data Analytics Agent](https://github.com/Ibraziz/DataAnalystAgent) · Questions into queries
-
-I built an agent that turns natural-language questions into SQL, database results, explanations, and interactive charts. It inspects database schemas and uses SQL tools through a bounded agent loop, with chart validation before returning visualizations.
-
-🏆 **SmartBi challenge winner — AaltoAI Hackathon 2025**
-
-**Built with:** Python · Gemini · LangGraph · LangChain · Flask · SQLite · Chart.js
-
-### 03 / [Lawgic](https://github.com/bikhanal/lawgic) · Working with legal documents
-
-I contributed to a legal-document application with OCR, retrieval-augmented chat, structured contract extraction, translation, and EU legislation search. The work included document-aware retrieval, structured outputs, and EUR-Lex integration.
-
-**Built with:** FastAPI · Pydantic · Chroma · Hugging Face embeddings · SQLAlchemy
-
-## Languages and tools
-
-<picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/tools-mobile-dark.svg">
-  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/tools-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/tools-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/tools-light.svg">
-  <img alt="Python, SQL, PyTorch, Transformers, vLLM, LangGraph, LangChain, FastAPI, Flask, DuckDB, Docker, and Slurm" src="./assets/tools-light.svg" width="1200">
-</picture>
-
-| Area | What I work with |
+| Area | Tools & frameworks |
 | :--- | :--- |
-| **AI and applications** | LLM evaluation, RAG, agent workflows, PyTorch, Transformers, vLLM, LangChain, LangGraph, FastAPI, Flask |
-| **Data** | Python, Oracle SQL, PostgreSQL, DuckDB, SQLite, Parquet |
-| **Infrastructure** | Slurm, Docker, Apptainer, CUDA and ROCm environments |
-| **Knowledge graphs** | RDF, SPARQL, ontologies — grounded in coursework and project work |
+| **Programming** | <img src="./assets/badges/python.svg" alt="Python" height="26"> <img src="./assets/badges/sql.svg" alt="SQL" height="26"> <img src="./assets/badges/dotnet.svg" alt=".NET" height="26"> |
+| **AI & NLP** | <img src="./assets/badges/pytorch.svg" alt="PyTorch" height="26"> <img src="./assets/badges/hugging-face.svg" alt="Hugging Face" height="26"> <img src="./assets/badges/transformers.svg" alt="Transformers" height="26"> <img src="./assets/badges/vllm.svg" alt="vLLM" height="26"> <img src="./assets/badges/dspy.svg" alt="DSPy" height="26"> |
+| **LLMs & agents** | <img src="./assets/badges/langchain.svg" alt="LangChain" height="26"> <img src="./assets/badges/langgraph.svg" alt="LangGraph" height="26"> <img src="./assets/badges/rag.svg" alt="RAG" height="26"> |
+| **APIs & applications** | <img src="./assets/badges/fastapi.svg" alt="FastAPI" height="26"> <img src="./assets/badges/flask.svg" alt="Flask" height="26"> <img src="./assets/badges/streamlit.svg" alt="Streamlit" height="26"> <img src="./assets/badges/pydantic.svg" alt="Pydantic" height="26"> <img src="./assets/badges/sqlalchemy.svg" alt="SQLAlchemy" height="26"> |
+| **Data & databases** | <img src="./assets/badges/oracle-sql.svg" alt="Oracle SQL" height="26"> <img src="./assets/badges/postgresql.svg" alt="PostgreSQL" height="26"> <img src="./assets/badges/duckdb.svg" alt="DuckDB" height="26"> <img src="./assets/badges/sqlite.svg" alt="SQLite" height="26"> <img src="./assets/badges/parquet.svg" alt="Parquet" height="26"> <img src="./assets/badges/pyspark.svg" alt="PySpark" height="26"> |
+| **Vector search** | <img src="./assets/badges/chroma.svg" alt="Chroma" height="26"> <img src="./assets/badges/faiss.svg" alt="FAISS" height="26"> |
+| **HPC & containers** | <img src="./assets/badges/slurm.svg" alt="Slurm" height="26"> <img src="./assets/badges/docker.svg" alt="Docker" height="26"> <img src="./assets/badges/apptainer.svg" alt="Apptainer" height="26"> <img src="./assets/badges/cuda.svg" alt="CUDA" height="26"> <img src="./assets/badges/rocm.svg" alt="ROCm" height="26"> |
+| **Knowledge graphs** | <img src="./assets/badges/rdf.svg" alt="RDF" height="26"> <img src="./assets/badges/sparql.svg" alt="SPARQL" height="26"> <img src="./assets/badges/ontologies.svg" alt="Ontologies" height="26"> |
+| **Cloud & dev tools** | <img src="./assets/badges/aws-fundamentals.svg" alt="AWS Fundamentals" height="26"> <img src="./assets/badges/git.svg" alt="Git" height="26"> <img src="./assets/badges/github.svg" alt="GitHub" height="26"> <img src="./assets/badges/jupyter.svg" alt="Jupyter" height="26"> |
 
-## A little more about me
-
-- **Research:** multilingual translation quality, evaluator selection, and reliable data processing.
-- **Teaching:** previously taught NLP, machine learning, and evolutionary algorithms at Helwan University.
-- **Earlier work:** Oracle SQL reporting and application troubleshooting as a database specialist.
-- **Languages:** Arabic (native), English (fluent), Finnish (beginner).
-
-I'm interested in building useful AI applications and collaborating on NLP, retrieval, and data projects. You can reach me on [LinkedIn](https://www.linkedin.com/in/abdelaziz-ibrahim-740800172/).
+<!-- tools:end -->

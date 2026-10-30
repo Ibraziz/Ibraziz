@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="95" height="26" viewBox="0 0 95 26" role="img" aria-labelledby="title desc">
+  <title id="title">SQLAlchemy</title>
+  <desc id="desc">Tool or framework: SQLAlchemy.</desc>
+  <defs><linearGradient id="paint" x2="0" y2="1"><stop stop-color="#b3555d"/><stop offset=".5" stop-color="#a63740"/><stop offset="1" stop-color="#923038"/></linearGradient></defs>
+<rect x=".5" y=".5" width="94" height="25" rx="4" fill="url(#paint)" stroke="#882d34"/>
+<path d="M5 1h85q4 0 4 4v7H1V5q0-4 4-4Z" fill="#ffffff" opacity=".07"/>
+<text x="47.5" y="18" fill="#000000" font-family="Verdana,Arial,sans-serif" font-size="13" font-weight="500" text-anchor="middle" opacity=".3">SQLAlchemy</text>
+<text x="47.5" y="17" fill="#ffffff" font-family="Verdana,Arial,sans-serif" font-size="13" font-weight="500" text-anchor="middle">SQLAlchemy</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="98" height="26" viewBox="0 0 98 26" role="img" aria-labelledby="title desc">
+  <title id="title">PostgreSQL</title>
+  <desc id="desc">Tool or framework: PostgreSQL.</desc>
+  <defs><linearGradient id="paint" x2="0" y2="1"><stop stop-color="#527ea2"/><stop offset=".5" stop-color="#336791"/><stop offset="1" stop-color="#2d5b80"/></linearGradient></defs>
+<rect x=".5" y=".5" width="97" height="25" rx="4" fill="url(#paint)" stroke="#2a5477"/>
+<path d="M5 1h88q4 0 4 4v7H1V5q0-4 4-4Z" fill="#ffffff" opacity=".07"/>
+<text x="49.0" y="18" fill="#000000" font-family="Verdana,Arial,sans-serif" font-size="13" font-weight="500" text-anchor="middle" opacity=".3">PostgreSQL</text>
+<text x="49.0" y="17" fill="#ffffff" font-family="Verdana,Arial,sans-serif" font-size="13" font-weight="500" text-anchor="middle">PostgreSQL</text>
+</svg>
