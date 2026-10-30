@@ -12,7 +12,8 @@
 
 ## Hi👋
 
-🔬 Interested in Agent workflows, and Multi-Agent Systems.
+🔬 Currently Interested in Agent workflows, and Multi-Agent Systems.
+👯 looking to collaborate on NLP projects, and any other AI-related projects.
 
 ## Tools & frameworks
 
