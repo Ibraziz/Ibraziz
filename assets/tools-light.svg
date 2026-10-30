@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="144" viewBox="0 0 1200 144" role="img" aria-labelledby="title desc">
+  <title id="title">Languages and tools</title>
+  <desc id="desc">Python, SQL, PyTorch, Transformers, vLLM, LangGraph, LangChain, FastAPI, Flask, DuckDB, Docker, Slurm. Text badges, not vendor logos or skill ratings.</desc>
+  <defs></defs>
+<rect x="1" y="1" width="188" height="64" rx="12" fill="#f0f7f9" stroke="#cbdde5"/>
+<rect x="12" y="14" width="38" height="38" rx="9" fill="#d9f2ed"/>
+<text x="31" y="39" fill="#087f73" font-family="'Cascadia Code', Consolas, monospace" font-size="18" font-weight="700" text-anchor="middle">Py</text>
+<text x="61" y="40" fill="#142b43" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="20" font-weight="600" >Python</text>
+<rect x="203" y="1" width="188" height="64" rx="12" fill="#f0f7f9" stroke="#cbdde5"/>
+<rect x="214" y="14" width="38" height="38" rx="9" fill="#d9f2ed"/>
+<text x="233" y="39" fill="#087f73" font-family="'Cascadia Code', Consolas, monospace" font-size="16" font-weight="700" text-anchor="middle">SQL</text>
+<text x="263" y="40" fill="#142b43" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="20" font-weight="600" >SQL</text>
+<rect x="405" y="1" width="188" height="64" rx="12" fill="#f0f7f9" stroke="#cbdde5"/>
+<rect x="416" y="14" width="38" height="38" rx="9" fill="#d9f2ed"/>
+<text x="435" y="39" fill="#087f73" font-family="'Cascadia Code', Consolas, monospace" font-size="18" font-weight="700" text-anchor="middle">Pt</text>
+<text x="465" y="40" fill="#142b43" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="20" font-weight="600" >PyTorch</text>
+<rect x="607" y="1" width="188" height="64" rx="12" fill="#f0f7f9" stroke="#cbdde5"/>
+<rect x="618" y="14" width="38" height="38" rx="9" fill="#d9f2ed"/>
+<text x="637" y="39" fill="#087f73" font-family="'Cascadia Code', Consolas, monospace" font-size="18" font-weight="700" text-anchor="middle">Tf</text>
+<text x="667" y="40" fill="#142b43" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="18" font-weight="600" >Transformers</text>
+<rect x="809" y="1" width="188" height="64" rx="12" fill="#f0f7f9" stroke="#cbdde5"/>
+<rect x="820" y="14" width="38" height="38" rx="9" fill="#d9f2ed"/>
+<text x="839" y="39" fill="#087f73" font-family="'Cascadia Code', Consolas, monospace" font-size="18" font-weight="700" text-anchor="middle">vL</text>
+<text x="869" y="40" fill="#142b43" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="20" font-weight="600" >vLLM</text>
+<rect x="1011" y="1" width="188" height="64" rx="12" fill="#f0f7f9" stroke="#cbdde5"/>
+<rect x="1022" y="14" width="38" height="38" rx="9" fill="#d9f2ed"/>
+<text x="1041" y="39" fill="#087f73" font-family="'Cascadia Code', Consolas, monospace" font-size="18" font-weight="700" text-anchor="middle">LG</text>
+<text x="1071" y="40" fill="#142b43" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="20" font-weight="600" >LangGraph</text>
+<rect x="1" y="79" width="188" height="64" rx="12" fill="#f0f7f9" stroke="#cbdde5"/>
+<rect x="12" y="92" width="38" height="38" rx="9" fill="#d9f2ed"/>
+<text x="31" y="117" fill="#087f73" font-family="'Cascadia Code', Consolas, monospace" font-size="18" font-weight="700" text-anchor="middle">LC</text>
+<text x="61" y="118" fill="#142b43" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="20" font-weight="600" >LangChain</text>
+<rect x="203" y="79" width="188" height="64" rx="12" fill="#f0f7f9" stroke="#cbdde5"/>
+<rect x="214" y="92" width="38" height="38" rx="9" fill="#d9f2ed"/>
+<text x="233" y="117" fill="#087f73" font-family="'Cascadia Code', Consolas, monospace" font-size="18" font-weight="700" text-anchor="middle">FA</text>
+<text x="263" y="118" fill="#142b43" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="20" font-weight="600" >FastAPI</text>
+<rect x="405" y="79" width="188" height="64" rx="12" fill="#f0f7f9" stroke="#cbdde5"/>
+<rect x="416" y="92" width="38" height="38" rx="9" fill="#d9f2ed"/>
+<text x="435" y="117" fill="#087f73" font-family="'Cascadia Code', Consolas, monospace" font-size="18" font-weight="700" text-anchor="middle">Fl</text>
+<text x="465" y="118" fill="#142b43" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="20" font-weight="600" >Flask</text>
+<rect x="607" y="79" width="188" height="64" rx="12" fill="#f0f7f9" stroke="#cbdde5"/>
+<rect x="618" y="92" width="38" height="38" rx="9" fill="#d9f2ed"/>
+<text x="637" y="117" fill="#087f73" font-family="'Cascadia Code', Consolas, monospace" font-size="18" font-weight="700" text-anchor="middle">Db</text>
+<text x="667" y="118" fill="#142b43" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="20" font-weight="600" >DuckDB</text>
+<rect x="809" y="79" width="188" height="64" rx="12" fill="#f0f7f9" stroke="#cbdde5"/>
+<rect x="820" y="92" width="38" height="38" rx="9" fill="#d9f2ed"/>
+<text x="839" y="117" fill="#087f73" font-family="'Cascadia Code', Consolas, monospace" font-size="18" font-weight="700" text-anchor="middle">Dk</text>
+<text x="869" y="118" fill="#142b43" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="20" font-weight="600" >Docker</text>
+<rect x="1011" y="79" width="188" height="64" rx="12" fill="#f0f7f9" stroke="#cbdde5"/>
+<rect x="1022" y="92" width="38" height="38" rx="9" fill="#d9f2ed"/>
+<text x="1041" y="117" fill="#087f73" font-family="'Cascadia Code', Consolas, monospace" font-size="18" font-weight="700" text-anchor="middle">Sl</text>
+<text x="1071" y="118" fill="#142b43" font-family="'Segoe UI', Inter, Arial, sans-serif" font-size="20" font-weight="600" >Slurm</text>
+</svg>

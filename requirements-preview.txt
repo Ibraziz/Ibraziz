@@ -1,0 +1,2 @@
+# Optional. Only needed to rebuild the local preview.
+Markdown>=3.8,<4

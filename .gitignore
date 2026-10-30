@@ -1,0 +1,14 @@
+# Local previews and development dependencies
+preview/
+.preview-deps/
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
