@@ -1,20 +1,11 @@
-<picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/hero-mobile-dark.svg">
-  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/hero-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/hero-light.svg">
-  <img alt="Abdelaziz Ibrahim — AI engineer and NLP researcher" src="./assets/hero-light.svg" width="1200">
-</picture>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/abdelaziz-ibrahim-740800172/">LinkedIn</a>
-</p>
-
 ## Hi👋
 
 🔬 Currently Interested in Agent workflows, and Multi-Agent Systems.
 
 👯 looking to collaborate on NLP projects, and any other AI-related projects.
+
+
+<p align="left">👥 Contact me on <a href="https://www.linkedin.com/in/abdelaziz-ibrahim-740800172/">LinkedIn</a></p>
 
 ## Tools & frameworks
 
